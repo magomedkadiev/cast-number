@@ -12,6 +12,8 @@
 		391AD92F1E84661F006FEDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391AD92D1E84661F006FEDB9 /* Main.storyboard */; };
 		391AD9311E84661F006FEDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391AD9301E84661F006FEDB9 /* Assets.xcassets */; };
 		391AD9341E84661F006FEDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391AD9321E84661F006FEDB9 /* LaunchScreen.storyboard */; };
+		391AD93C1E846805006FEDB9 /* StartSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AD93B1E846805006FEDB9 /* StartSceneViewController.swift */; };
+		392043AD1E87DE790080C87C /* RandomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392043AC1E87DE790080C87C /* RandomHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		391AD9301E84661F006FEDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391AD9331E84661F006FEDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391AD9351E84661F006FEDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391AD93B1E846805006FEDB9 /* StartSceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartSceneViewController.swift; sourceTree = "<group>"; };
+		392043AC1E87DE790080C87C /* RandomHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				391AD9301E84661F006FEDB9 /* Assets.xcassets */,
 				391AD9321E84661F006FEDB9 /* LaunchScreen.storyboard */,
 				391AD9351E84661F006FEDB9 /* Info.plist */,
+				391AD93B1E846805006FEDB9 /* StartSceneViewController.swift */,
+				392043AC1E87DE790080C87C /* RandomHelper.swift */,
 			);
 			path = "Cast Number";
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					391AD9251E84661F006FEDB9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BB977G3K54;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +145,8 @@
 			files = (
 				391AD92C1E84661F006FEDB9 /* ViewController.swift in Sources */,
 				391AD92A1E84661F006FEDB9 /* AppDelegate.swift in Sources */,
+				392043AD1E87DE790080C87C /* RandomHelper.swift in Sources */,
+				391AD93C1E846805006FEDB9 /* StartSceneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +269,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BB977G3K54;
 				INFOPLIST_FILE = "Cast Number/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Magomedkadiev.Cast-Number";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BB977G3K54;
 				INFOPLIST_FILE = "Cast Number/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Magomedkadiev.Cast-Number";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +312,7 @@
 				391AD93A1E84661F006FEDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
